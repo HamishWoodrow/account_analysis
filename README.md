@@ -21,7 +21,7 @@ There are of course further problems like, what to do for online companies, what
 #### Company Name Extraction (descriptionparser.py)
 This is a method to extract a company name from the description on a bank statement.  Example given below:
 
-[example parse](https://github.com/HamishWoodrow/account_analysis/blob/master/assets/images/example_parse.png)
+![example parse](https://github.com/HamishWoodrow/account_analysis/blob/master/assets/images/example_parse.png)
 
 The method is currently a rule based method with the heuristics outlined below.  This will in the near future, once a corpus of training material is made, be augmented into a Naive Bayes approach.
 - For each description tokenize the word and score each word for its likelihood of being part of the companies name
